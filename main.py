@@ -1,6 +1,6 @@
 # author: Aaryan Goel apg5720@psu.edu 
-letter = input("Enter your course 1 letter grade:")
-credit1 = float(input("Enter your course 1 credit:"))
+letter = input("Enter your course 1 letter grade: ")
+credit1 = float(input("Enter your course 1 credit: "))
 GradeP = 0
 
 if letter == "A":
@@ -25,8 +25,8 @@ elif letter == "F":
 GPA1 = GradeP
 print(f"Grade point for course 1 is: {GPA1}")
 # 2
-letter = input("Enter your course 2 letter grade:")
-credit2 = float(input("Enter your course 2 credit:"))
+letter = input("Enter your course 2 letter grade: ")
+credit2 = float(input("Enter your course 2 credit: "))
 GradeP = 0
 
 if letter == "A":
@@ -51,8 +51,8 @@ elif letter == "F":
 GPA2 = GradeP
 print(f"Grade point for course 2 is: {GPA2}")
 #3
-letter = input("Enter your course 3 letter grade:")
-credit3 = float(input("Enter your course 3 credit:"))
+letter = input("Enter your course 3 letter grade: ")
+credit3 = float(input("Enter your course 3 credit: "))
 GradeP = 0
 
 if letter == "A":
