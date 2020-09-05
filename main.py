@@ -20,7 +20,7 @@ elif letter == "C":
 elif letter == "D":
   GradeP = 1.0
 elif letter == "F":
-  GradeP = 0.0
+  GradeP = 0
 
 GPA1 = GradeP
 print(f"Grade point for course 1 is: " + + str(GPA1))
@@ -46,7 +46,7 @@ elif letter == "C":
 elif letter == "D":
   GradeP = 1.0
 elif letter == "F":
-  GradeP = 0.0
+  GradeP = 0
 
 GPA2 = GradeP
 print(f"Grade point for course 2 is: " + str(GPA2))
@@ -72,7 +72,7 @@ elif letter == "C":
 elif letter == "D":
   GradeP = 1.0
 elif letter == "F":
-  GradeP = 0.0
+  GradeP = 0
 
 GPA3 = GradeP
 print(f"Grade point for course 3 is: " + str(GPA3))
