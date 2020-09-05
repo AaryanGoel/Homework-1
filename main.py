@@ -75,7 +75,7 @@ elif letter == "F":
   GradeP = 0
 
 GPA3 = GradeP
-print(f"Grade point for course 3 is: " + {GPA3})
+print(f"Grade point for course 3 is: {GPA3}")
 
 GPAt = ((GPA1 * credit1) + (GPA2 * credit2) + (GPA3 * credit3)) / (credit1 + credit2 + credit3)
 print(f"Your GPA is: {GPAt}" )
