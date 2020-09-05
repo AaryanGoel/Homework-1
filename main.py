@@ -22,7 +22,7 @@ elif letter == "D":
 elif letter == "F":
   GradeP = 0
 
-GPA1 = GradeP
+GPA1 = float(GradeP)
 print(f"Grade point for course 1 is: {GPA1}")
 # 2
 letter = input("Enter your course 2 letter grade: ")
@@ -48,7 +48,7 @@ elif letter == "D":
 elif letter == "F":
   GradeP = 0
 
-GPA2 = GradeP
+GPA2 = float(GradeP)
 print(f"Grade point for course 2 is: {GPA2}")
 #3
 letter = input("Enter your course 3 letter grade: ")
@@ -74,8 +74,8 @@ elif letter == "D":
 elif letter == "F":
   GradeP = 0
 
-GPA3 = GradeP
+GPA3 = float(GradeP)
 print(f"Grade point for course 3 is: {GPA3}")
 
 GPAt = ((GPA1 * credit1) + (GPA2 * credit2) + (GPA3 * credit3)) / (credit1 + credit2 + credit3)
-print(f"Your GPA is: {GPAt}" )
+print(f"Your GPA is: {GPAt}")
